@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.column-left,
+.column-right {
+    height: 400px;
+}
+.column-left {
+    background-color: red;
+    width: 60%;
+}
+.column-right {
+    background-color: blue;
+    width: 40%;
+}
+
+.top {
+    background-color: chartreuse;
+    height: 50%;
+}
+.bot {
+    background-color:pink;
+    height: 50%;
+}
+.column-left, .bot, .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
