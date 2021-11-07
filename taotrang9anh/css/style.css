@@ -1,0 +1,22 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+div {
+    display: block;
+}
+
+.picture {
+    border: 10px solid white;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.picture:hover {
+    border-radius: 8px;
+    transform: rotate(5deg);
+    transition: 0,3s;
+}
