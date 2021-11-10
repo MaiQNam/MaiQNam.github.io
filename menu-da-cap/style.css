@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-menu {
+  display: flex;
+  background-color: #ddd;
+}
+
+.main-menu li {
+  position: relative;
+}
+
+.main-menu li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.sub-menu {
+  display: flex;
+  position: absolute;
+  top: 58px;
+  left: 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: max-content;
+  display: none;
+}
+
+.main-menu li:hover .sub-menu {
+  display: block;
+}
+
+

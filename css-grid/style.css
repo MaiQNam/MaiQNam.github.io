@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  justify-items: center;
+  width: max-content;
+  margin: 30px auto;
+}
+
+.image {
+  position: relative;
+}
+
+.image img:nth-child(1) {
+  filter: grayscale(1) brightness(40%);
+}
+
+.image img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  clip-path: circle(0);
+}
+
+.image:hover img:nth-child(2) {
+  clip-path: circle(150%);
+}

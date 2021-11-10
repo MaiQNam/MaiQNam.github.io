@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 div {
     display: block;
 }
@@ -13,10 +14,10 @@ div {
     height: 150px;
     object-fit: cover;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .picture:hover {
     border-radius: 8px;
     transform: rotate(5deg);
-    transition: 0,3s;
 }
