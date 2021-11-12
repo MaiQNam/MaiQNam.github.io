@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Slick Carousel</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="slick-theme.css">
+  </head>
+
+  <body>
+    <div class="your-class">
+      <div>
+        <img
+          alt="Abbott VN"
+          src="https://icms-image.slatic.net/images/ims-web/acdda998-5768-4e6e-abfd-94a3753d6735.jpg"
+        />
+      </div>
+      <div>
+        <img
+          src="https://icms-image.slatic.net/images/ims-web/2a9e3b67-2772-4b24-8299-ba59841f6df8.jpg"
+        />
+      </div>
+      <div>
+        <img
+          src="https://icms-image.slatic.net/images/ims-web/bf15c4eb-59d2-4679-ac35-54eedddda28d.jpg"
+        />
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".your-class").slick({
+          autoplay: true,
+          // prevArrow: `<h1>Lui ve sau 1 buoc</h1>`,
+          // nextArrow: `<h1>Tien ve truoc 2 buoc</h1>`,
+          dots: true
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-item { width: 300px; }
+        .body {margin: 0;}
+        .grid {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        img {max-width: 100%;}
+
+    </style>
+</head>
+<body>
+    
+    <div class="grid">
+        <div class="grid-item"> <img src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c65q43k51cod6e7c2vng" alt=""></div>
+        <div class="grid-item grid-item--width2"> <img src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c654r8451cob0ng450fg" alt=""></div>
+        <div class="grid-item"> <img src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c64tdns51cob0ng450b0" alt=""></div>
+        <div class="grid-item grid-item--width2"> <img src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c3o1kfk51co54dnk9kig/////" alt=""></div>
+        <div class="grid-item"> <img src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c630bps51cob0ng4505g" alt=""></div>
+        <div class="grid-item grid-item--width2"> <img src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c61147s51co49felap8g/" alt=""></div>
+        <div class="grid-item"> <img src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c5uc94c51co49felaok0///" alt=""></div>
+        <div class="grid-item"> <img src="https://techmaster.vn/media/static/9479/c5n7pok51co8fjgguau0" alt=""></div>
+        <div class="grid-item"> <img src="https://techmaster.vn/media/static/9479/c5n7pok51co8fjgguau0" alt=""></div>
+      </div>
+
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+      <script>var elem = document.querySelector('.grid');
+        var msnry = new Masonry( elem, {
+          // options
+          itemSelector: '.grid-item',
+          columnWidth: 200
+        });
+        
+        // element argument can be a selector string
+        //   for an individual element
+        var msnry = new Masonry( '.grid', {
+          // options
+        });</script>
+      
+</body>
+</html>

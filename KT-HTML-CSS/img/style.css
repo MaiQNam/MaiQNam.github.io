@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    border: 10px solid white;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.picture:hover {
+    border-radius: 8px;
+    transform: rotate(5deg);
+}
+
+.dongvat1 {
+    margin: 50px auto;
+    display: flex;
+    text-align: flex-end;
+}

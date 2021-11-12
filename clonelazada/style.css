@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sub-menu {
+  position: absolute;
+  top: 0;
+  left: 210px;
+  width: 210px;
+  height: 152px;
+  display: none;
+  padding-top: 0px;
+  box-shadow: 0 0 4px 0 brown;
+}
+
+.main-menu li a {
+  text-decoration: none;
+}
+
+.main-menu li:hover .sub-menu {
+  display: block;
+  cursor: pointer;
+}
+
+.main-menu {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 210px;
+  height: max-content;
+  box-shadow: 0 0 4px 0 brown;
+}
+
+li {
+  padding: 10px 10px 10px;
+}
+
+.main-menu li:hover .danhmuc {
+  color: orange;
+}
+
+i {
+  color: red;
+  position: absolute;
+  right: 4px;
+  font-size: 15px;
+}
+
+.sub-menu li:hover .abc {
+  color: orange;
+}
+
+.img {
+  display: block;
+  text-align: center;
+  background: #8b66ff;
+}
